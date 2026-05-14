@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+    margin-top:40px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #ccc;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#ffd800;
+    border:none;
+    padding:10px;
+    width:100%;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ffea4d;
+}
+
+a{
+    text-decoration:none;
+}
+
+.tabela{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.tabela td,
+.tabela th{
+    border:1px solid #000;
+    padding:10px;
+}
